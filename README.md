@@ -1,5 +1,5 @@
 # AUTOARK
-Auto daily activity program of Ark-Nights with OpenCV, adb, Baidu API
+Auto daily activity program of Ark-Nights with OpenCV, MuMu simulator adb and Baidu API.
 ## Setup in Windows10
 
 #### Install baidu API
@@ -17,6 +17,9 @@ python adb_init_connect.py
 ```
 python shop.py
 ```
+
+#### Preview
+![image](image/MuMu20201028150640.png)
 
 and more..
 
