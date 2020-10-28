@@ -1,8 +1,24 @@
 # AUTOARK
 Auto daily activity program of Ark-Nights with OpenCV, MuMu simulator adb and Baidu API.
+
+## Configuration
+
+1. OpenCV
+```
+pip install opencv-python
+```
+2. 
+
 ## Setup in Windows10
+Dowload this code and unzip into your path.
+Open cmd and enter the local path by commanding:
+```
+>/your local path/[for example my path is D:\AUTOARK-master]
+```
 
 #### Install baidu API
+
+
 #### Get start
 1. Open MuMu simulator.
 2. Run the `adb_init_connect.py` in cmd
