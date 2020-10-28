@@ -24,7 +24,7 @@ Open cmd and enter the local path by commanding:
 #### Install baidu API
 
 Sign up an account of [Baidu API](https://login.bce.baidu.com/), it is free.
-Check the documents to apply the [ocr](https://cloud.baidu.com/doc/OCR/index.html) and [image search]https://cloud.baidu.com/doc/IMAGESEARCH/index.html application. 
+Check the documents to apply the [ocr](https://cloud.baidu.com/doc/OCR/index.html) and [image search](https://cloud.baidu.com/doc/IMAGESEARCH/index.html) application. 
 After successful applying the OCR and image search API, copy 3 keys and paste them to these lines in 2 files (\AUTOARK-master\baidulib\ocr.py & \AUTOARK-master\baidulib\img_search.py).
 ```
 config = {
