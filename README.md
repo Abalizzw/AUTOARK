@@ -7,7 +7,11 @@ Auto daily activity program of Ark-Nights with OpenCV, MuMu simulator adb and Ba
 ```
 pip install opencv-python
 ```
-2. 
+2. Baidu API
+```
+pip install baidu-aip
+```
+3.
 
 ## Setup in Windows10
 Dowload this code and unzip into your path.
@@ -16,8 +20,19 @@ Open cmd and enter the local path by commanding:
 >/your local path/[for example my path is D:\AUTOARK-master]
 ```
 
+
 #### Install baidu API
 
+Sign up an account of [Baidu API](https://login.bce.baidu.com/), it is free.
+Check the [document](https://cloud.baidu.com/doc/OCR/index.html) to install related packages. (I will write it in detail later.)
+After successful applying the OCR and image recogition API, copy 3 keys and paste them to these lines in 2 files (\AUTOARK-master\baidulib\ocr.py & \AUTOARK-master\baidulib\img_search.py).
+```
+config = {
+    'appId': '********',
+    'apiKey': '************************',
+    'secretKey': '********************************'
+}
+```
 
 #### Get start
 1. Open MuMu simulator.
