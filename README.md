@@ -28,9 +28,9 @@ Check the documents to apply the [ocr](https://cloud.baidu.com/doc/OCR/index.htm
 After successful applying the OCR and image search API, copy 3 keys and paste them to these lines in 2 files (\AUTOARK-master\baidulib\ocr.py & \AUTOARK-master\baidulib\img_search.py).
 ```
 config = {
-    'appId': '********',
-    'apiKey': '************************',
-    'secretKey': '********************************'
+    'appId': 'your id ********',
+    'apiKey': 'your key ************************',
+    'secretKey': 'your key ********************************'
 }
 ```
 
