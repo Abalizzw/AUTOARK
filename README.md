@@ -44,12 +44,16 @@ python adb_init_connect.py
 
 3. Make sure to enter the main interface of the game.
 
-4. Run the spcific function file by python command. For example, buy the credit store's goods by command:
+4. Run the spcific function file by python command. For example, buy the credit store's goods by commanding:
 ```
 python shop.py
 ```
-
+  Or return to home interface from anywhere in the game by commanding:
+```
+python returnhome.py
+```
 #### Preview
+![image](expvideos/20201028-232819635.mp4)
 ![image](image/MuMu20201028150640.png)
 
 and more..
